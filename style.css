@@ -86,3 +86,33 @@ footer {
 
     padding: 20px;
 }
+
+.law-card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    width: 250px;
+
+    text-decoration: none;
+
+    color: black;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+.law-card:hover {
+    transform: scale(1.05);
+
+    border-left: 5px solid #0B3D91;
+}
+
+.law-card span {
+    color: #0B3D91;
+
+    font-weight: bold;
+}
