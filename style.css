@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0B3D91;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    text-align: center;
+
+    padding: 100px 20px;
+
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("images/assemblee.jpg");
+
+    background-size: cover;
+
+    color: white;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+.btn {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    background: #C62828;
+    color: white;
+
+    padding: 15px 30px;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 50px;
+}
+
+.card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    width: 200px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #0B3D91;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
